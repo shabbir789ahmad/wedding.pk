@@ -1,0 +1,48 @@
+.detail h4
+{
+	font-family: Roboto;
+	font-size: 2vw;
+	font-weight: bold;
+	color: #0a0a0a;
+}
+.detail_button
+{
+	width: 100%;
+	background-color: red;
+}
+.detail_button2
+{
+	width: 50%;
+}
+.detail p
+{
+	font-family: Roboto;
+
+	color: #696969;
+	line-height: 2.2vw;
+}
+.color
+{
+	background-image: linear-gradient(to right,#65C2E9, #3590CC);
+  width:30%; height:100%;
+  color:#65C2E9 ;
+}
+.drop
+{
+	text-decoration: none;
+	color: black;
+	height: 1%;
+}
+.drop:hover
+{
+	text-decoration: none;
+	color: black;
+}
+
+.box:after {
+  content: ' ';
+  border-top: 37vh solid #008ce6;
+  border-right: 22vw solid transparent;
+  width: 0;
+  position: absolute;
+}

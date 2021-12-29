@@ -1,0 +1,307 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+.slider
+{
+	position: relative;
+	display: inline-block;
+	top: 0;
+
+}
+
+.event{
+	position: absolute;
+	top: 20%;
+	left: 35%;
+	  transform: rotate(6deg);
+
+
+}
+.slidertext
+{
+	position: absolute;
+	top: 53%;
+	left: 24.6%;
+	
+	font-family: Roboto;
+	font-size: 2vw;
+	
+}
+
+
+.c{
+	font-family: Raleway-Regular;
+	line-height: 2.4vw;
+	font-size: 1.4vw;
+	margin-top: 3%;
+	color: #787878;
+}
+.wc{
+	font-family: Raleway-Regular;
+	line-height: 2.4vw;
+	font-size: 1.4vw;
+color: #393939;
+	
+}
+.work
+{
+	font-family: Raleway-Regular;
+ 
+	font-size:3.3vw;
+}
+.work2
+{
+
+ color: #393939;
+	font-size:1.3vw;
+	font-style: italic;
+}
+.work:after
+{
+	  content: "";
+    display: inline-block;
+    width: 12%;
+    height: .2rem;
+    margin-left: 4%;
+  background-image: linear-gradient(to right,#65C2E9, #3590CC);
+  
+}
+.card-title
+{
+	color: #6C757D;
+	font-size: 1.5vw;
+	font-family: Roboto;
+}
+.text a
+{
+	color:black;
+
+	font-family: Roboto;
+	font-weight:bold;
+    font-style:italic;
+    color: #393939;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+.a img{
+	border-radius: 2rem;
+		border: 1px solid white;
+}
+.card-img
+{
+	
+	margin-top: 2%;
+	height: 22rem;
+ 
+
+}
+.a:hover img {
+  transform: scale(1.02);
+}
+.a img {
+  transition: transform .5s ease;
+}
+.b{
+  position: relative;
+}
+.icon
+{
+	position: absolute;
+	top: 40%;
+	left:34% ;
+  
+  color: white;
+}
+.icon::hover
+{
+	background-color: transparent;
+}
+.text2 a
+{
+	color:black;
+	
+	font-weight:500;
+   font-size: 1.3vw;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: absolute;
+    top: 80%;
+    left: 25%;
+ background-color: ;
+}
+.b:hover img {
+  transform: scale(1.02);
+  background-color: black;
+}
+.b img {
+  transition: transform .5s ease;
+    
+}
+.card-img2
+{
+	
+	border-radius: 8%;
+	margin-top: 2%;
+	height: 21rem;
+  width: 100%;
+	border: 1px solid white;
+filter: brightness(70%);
+}
+.card-img2:hover
+{
+	filter: brightness(0.5);
+}
+.reviews h2
+{
+	font-family: Merriweather-Regular;
+ 
+  font-size: 4vw;
+  font-weight: 500;
+}
+.reviews p
+{
+	font-family: Merriweather-Regular;
+ 
+  font-size: 1.5vw;
+}
+.message
+{
+	width: 60%;
+float: right;
+	height: 100%;
+background-color: #EAF3F9;
+}
+.message h2
+{
+   font-family: Roboto;
+   font-size: 2vw;
+   font-weight: bold;
+}
+.message h6
+{
+   font-family: Roboto;
+   font-size: 1vw;
+   font-weight: bold;
+}
+.message p
+{
+   font-family: Roboto;
+   font-size: 1.2vw;
+  
+   line-height: 2vw;
+}
+li a{
+  color: white;
+  text-decoration: none;
+}
+.name
+{
+	
+	
+	font-size: 3vw;
+
+}
+ 
+.seemore p
+{
+	margin-left: 40%;
+background-image: linear-gradient(to right,#65C2E9, #3590CC);
+  
+  border: none;
+  color: white;
+  padding: .5% 5%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2vw;
+  border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+      border-top-left-radius: 40px;
+        border-bottom-left-radius: 40px;
+} 
+.seemore2 p
+{
+	
+background-image: linear-gradient(to right,#65C2E9, #3590CC);
+  
+  border: none;
+  color: white;
+  padding: .7% 30%;
+ text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2vw;
+  border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+      border-top-left-radius: 40px;
+        border-bottom-left-radius: 40px;
+} 
+
+.checked
+{
+	color: orange;
+}
+.slidericon
+{
+  position: absolute;
+  top: 80%;
+  left: 10%;
+  display: inline-block;
+}
+.slidericon2
+{
+  position: absolute;
+  top: 80%;
+  left: 70%;
+  display: inline-block;
+}
+.parall
+{
+	 background-image: url("/images/cta.jpg");
+
+  min-height: 25rem; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parall:hover
+{
+  filter: brightness(1);
+}
+.searchbar
+{
+	width: 45%;
+	outline: none;
+  border: none;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2vw;
+
+      border-top-left-radius: 40px;
+        border-bottom-left-radius: 40px;
+}
+.search{
+	position: absolute;
+	top: 20rem;
+	left: 22%;
+width: 100%;
+}
+.searchbtn
+{
+	
+	height: 100%;
+  border: none;
+  color: white;
+  text-align: bottom;
+  text-decoration: none;
+  font-size: 2vw;
+background-image: linear-gradient(to right,#65C2E9, #1C76BD);
+  border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}

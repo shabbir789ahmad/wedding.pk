@@ -1,0 +1,28 @@
+@media screen and (max-width: 480px) {
+  .serve {
+   margin-top: 70%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .serve {
+   margin-top: 40%;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .serve {
+   margin-top: 20%;
+  }
+}
+@media screen and (max-width: 2000px) {
+  .serve {
+   margin-top: 20%;
+  }
+}
+@media screen and (max-width: 2000px) {
+  .option {
+   margin-left: 100%;
+     margin-top: 10%;
+  }
+}
+
+
